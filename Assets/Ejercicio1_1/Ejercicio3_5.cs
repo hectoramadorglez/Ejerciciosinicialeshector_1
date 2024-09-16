@@ -5,9 +5,10 @@ using UnityEngine;
 public class Ejercicio3_5 : MonoBehaviour
 {
     // Start is called before the first frame update
+    public float radio;
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
