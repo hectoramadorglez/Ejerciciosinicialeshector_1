@@ -6,7 +6,8 @@ public class Ejercicio2_8 : MonoBehaviour
 {
     // Start is called before the first frame update
     float vidaInicial = 120.0f;
-
+    float porcentajeVeneno = 3f;
+    float porcentajeAcumulado = 0f;
     void Start()
     {
         

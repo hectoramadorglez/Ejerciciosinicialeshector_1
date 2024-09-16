@@ -12,7 +12,7 @@ public class Ejercicio2_7 : MonoBehaviour
     void Start()
     {
         int totalSegundos = horas * segundosPorhora;
-        int oroTotal = oroPorSegundo * segundosPorhora;
+        int oroTotal = oroPorSegundo * totalSegundos;
         Debug.Log("El total de oro farmeado es de" +  oroTotal);
     }
 
