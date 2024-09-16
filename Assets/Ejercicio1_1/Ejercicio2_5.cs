@@ -22,8 +22,10 @@ public class Ejercicio2_5 : MonoBehaviour
         vidasPlayer3 = vidasPlayer1;
         vidasPlayer1 = vidasPlayer4;
         vidasPlayer4 = variable;
-
-
+        Debug.Log("Vidas del player 1" + vidasPlayer1);
+        Debug.Log("Vidas del player 2" + vidasPlayer2);
+        Debug.Log("Vidas del player 3" + vidasPlayer3);
+        Debug.Log("Vidas del player 4" + vidasPlayer4);
     }
 
     // Update is called once per frame

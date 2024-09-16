@@ -15,11 +15,11 @@ public class Ejercicio2_3 : MonoBehaviour
         float resto = vidas % (int)exp;
         int dobleVidas = vidas * 2;
         float tripleExp = exp * 3;
-        Debug.Log(producto);
-        Debug.Log(cociente);
-        Debug.Log(resto);
-        Debug.Log(dobleVidas);
-        Debug.Log(tripleExp);
+        Debug.Log("El resultado" + producto);
+        Debug.Log("El resultado" + cociente);
+        Debug.Log("El resultado" + resto);
+        Debug.Log("El resultado" + dobleVidas);
+        Debug.Log("El resultado" + tripleExp);
 
     }
 
