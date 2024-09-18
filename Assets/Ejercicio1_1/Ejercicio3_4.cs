@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ejercicio3_4 : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float EXP;
+    [SerializeField] float EXP;
     void Start()
     {
         float LVL = 32 + (9 * EXP / 5);

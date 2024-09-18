@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ejercicio3_6 : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float velocidadKmH;
+    [SerializeField] float velocidadKmH;
     void Start()
     {
         float velocidadMS = velocidadKmH *1000 / 3600;

@@ -5,8 +5,8 @@ using UnityEngine;
 public class Ejercicio3_7 : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float baseTriangulo;
-    public float alturaTriangulo;
+    [SerializeField] float baseTriangulo;
+    [SerializeField] float alturaTriangulo;
     void Start()
     {
         float areaTriangulo = (baseTriangulo * alturaTriangulo)/2;
