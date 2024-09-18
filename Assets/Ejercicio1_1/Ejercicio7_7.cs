@@ -11,7 +11,7 @@ public class Ejercicio7_7 : MonoBehaviour
     {
         Debug.Log("numero 1 es " + num1);
         Debug.Log("numero 2 es " + num2);
-        while (num1 > num2)
+        while (num1 < num2)
         {
             Debug.Log("Muestra los numeros que estan entre" + num1);
             num1++;
