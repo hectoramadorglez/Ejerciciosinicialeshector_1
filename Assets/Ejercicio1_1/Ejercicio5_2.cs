@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio5_1 : MonoBehaviour
+public class Ejercicio5_2 : MonoBehaviour
 {
-    [SerializeField] int vida1;
-    [SerializeField] int vida2;
     // Start is called before the first frame update
+
+    [SerializeField] int numero1;
+    [SerializeField] int numero2;   
     void Start()
     {
-        if (vida1 == vida2) 
+        if(numero1< 3) 
         {
-
-            Debug.Log("Los dos valores son iguales");
+            Debug.Log("Es menor que 3");
+        }
+        if (numero2 < 3)
+        {
+            Debug.Log("Es menor que 3");
         }
     }
 
