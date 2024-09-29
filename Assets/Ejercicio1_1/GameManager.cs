@@ -15,4 +15,10 @@ public class GameManager : MonoBehaviour
     {
         
     }
+    void PrepararPersonajes() 
+    { 
+        
+    
+    
+    }
 }

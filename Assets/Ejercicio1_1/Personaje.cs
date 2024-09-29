@@ -9,8 +9,10 @@ public class Personaje : MonoBehaviour
     private int vida;
     private int experiencia;
     private int LVL;
-   
-    
+    [SerializeField] int vidainicial;
+    [SerializeField] int cura;
+    private int vidaActual;
+
     void Start()
     {
         
@@ -28,5 +30,45 @@ public class Personaje : MonoBehaviour
         return LVL;
 
 
+    }
+    void SistemaDeVida()
+    {
+        int vida = vidainicial;
+
+        
+    
+    
+    }
+    float RecibirCura(float cantidad) 
+    { 
+        int cura = vidaActual + 1;
+        if (cura < 0) 
+        {
+            Debug.Log("La cura no puede tener un valor negativo");
+        
+        }
+        return cura;
+    
+    
+    }
+    float RecibirDanho( float danho) 
+    { 
+        vidaActual = vidaActual - 1;
+        if(vidaActual == 0) 
+        { 
+            vidaActual = 0;
+        
+        
+        }  
+        else if (vidaActual < 0) 
+        {
+            Debug.Log("La cantidad introducida es negativa");
+            vidaActual = -1;
+        
+        
+        }
+        return vidaActual;
+    
+    
     }
 }
