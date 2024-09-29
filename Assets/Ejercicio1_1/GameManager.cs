@@ -21,4 +21,9 @@ public class GameManager : MonoBehaviour
     
     
     }
+    void FinDeTurno() 
+    { 
+    
+    
+    }
 }
